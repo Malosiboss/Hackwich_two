@@ -27,6 +27,14 @@
                                     <action selector="pressMeButtonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aIi-QQ-fxn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laa-Sv-8Ky">
+                                <rect key="frame" x="161" y="715" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Press Me Too"/>
+                                <connections>
+                                    <action selector="pressMeTooPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rw9-wH-KDo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
