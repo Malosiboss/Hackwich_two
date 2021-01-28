@@ -61,18 +61,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBk-sx-Q7h">
-                                <rect key="frame" x="95" y="70" width="225" height="127"/>
+                                <rect key="frame" x="95" y="104" width="225" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhx-RN-v3g">
-                                <rect key="frame" x="98" y="380" width="219" height="147"/>
+                                <rect key="frame" x="98" y="395" width="219" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
-                                    <action selector="changeColorButtonPressed:" destination="Mdb-4c-svL" eventType="touchUpInside" id="vMz-XR-BMy"/>
+                                    <action selector="changeColorButtonPressed:" destination="Mdb-4c-svL" eventType="touchUpInside" id="m1c-wf-E3A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,6 +80,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="lmU-jc-jE2"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="JBk-sx-Q7h" id="RTl-Yl-y5H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEu-ZY-KYy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
