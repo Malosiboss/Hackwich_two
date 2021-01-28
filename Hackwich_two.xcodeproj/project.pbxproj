@@ -15,6 +15,7 @@
 		4F00A10F25C0A9AC00D3761E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F00A10D25C0A9AC00D3761E /* LaunchScreen.storyboard */; };
 		4F00A11A25C0A9AD00D3761E /* Hackwich_twoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A11925C0A9AD00D3761E /* Hackwich_twoTests.swift */; };
 		4F00A12525C0A9AD00D3761E /* Hackwich_twoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F00A12425C0A9AD00D3761E /* Hackwich_twoUITests.swift */; };
+		4F32728E25C34D4500F703D1 /* SeconedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F32728D25C34D4500F703D1 /* SeconedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4F00A12025C0A9AD00D3761E /* Hackwich_twoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackwich_twoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F00A12425C0A9AD00D3761E /* Hackwich_twoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich_twoUITests.swift; sourceTree = "<group>"; };
 		4F00A12625C0A9AD00D3761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F32728D25C34D4500F703D1 /* SeconedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4F00A10425C0A9AA00D3761E /* SceneDelegate.swift */,
 				4F00A10625C0A9AA00D3761E /* ViewController.swift */,
 				4F00A10825C0A9AA00D3761E /* Main.storyboard */,
+				4F32728D25C34D4500F703D1 /* SeconedViewController.swift */,
 				4F00A10B25C0A9AC00D3761E /* Assets.xcassets */,
 				4F00A10D25C0A9AC00D3761E /* LaunchScreen.storyboard */,
 				4F00A11025C0A9AC00D3761E /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				4F00A10725C0A9AA00D3761E /* ViewController.swift in Sources */,
 				4F00A10325C0A9AA00D3761E /* AppDelegate.swift in Sources */,
+				4F32728E25C34D4500F703D1 /* SeconedViewController.swift in Sources */,
 				4F00A10525C0A9AA00D3761E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
